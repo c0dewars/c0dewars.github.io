@@ -1,0 +1,18 @@
+Technology logo sources
+
+Devicon
+https://github.com/devicons/devicon
+Source revision: 32fe1d3b3f36ad11f90ab94f7db59738139c2bf6
+License: MIT; the full notice is preserved in DEVICON-LICENSE.txt.
+
+AWS Architecture Icons
+https://aws.amazon.com/architecture/icons/
+Release: July 31, 2026
+The four AWS service icons are unmodified SVGs extracted from the official AWS Architecture Icons package.
+Copyright Amazon Web Services, Inc. AWS service icons remain the property of Amazon Web Services, Inc.; use is subject to the terms provided with the AWS Architecture Icons.
+
+All product names, logos and brands are property of their respective owners. They are used solely to identify the technologies referenced in this portfolio and do not imply endorsement.
+
+Exact per-file source URLs and original paths are recorded in SOURCES.json.
+
+The Devicon GitHub Copilot SVG has the standard SVG XML namespace added so it renders correctly as a standalone image. Its artwork is unchanged.

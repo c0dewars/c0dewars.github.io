@@ -1,0 +1,199 @@
+[
+  {
+    "file": "aws.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/amazonwebservices/amazonwebservices-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 3743,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "azure.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/azure/azure-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 1713,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "kubernetes.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/kubernetes/kubernetes-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 8951,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "docker.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/docker/docker-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 4452,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "helm.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/helm/helm-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 2370,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "python.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/python/python-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 2300,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "nodejs.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/nodejs/nodejs-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 1806,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "javascript.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/javascript/javascript-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 1144,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "django.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/django/django-plain.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 644,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "react.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/react/react-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 2387,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "vuejs.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/vuejs/vuejs-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 561,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "git.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/git/git-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 778,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "github.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/github/github-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 1866,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "github-copilot.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/githubcopilot/githubcopilot-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 2805,
+    "viewBox": "0 0 128 128",
+    "modifications": "Added standard SVG namespace for standalone image rendering; artwork unchanged."
+  },
+  {
+    "file": "jira.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/jira/jira-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 1092,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "confluence.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/confluence/confluence-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 1483,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "mongodb.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/mongodb/mongodb-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 5611,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "mysql.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/mysql/mysql-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 2765,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "jasmine.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/jasmine/jasmine-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 830,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "karma.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/karma/karma-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 424,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "aws-lambda.svg",
+    "source": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+    "archive_path": "Architecture-Service-Icons_07312026/Arch_Compute/64/Arch_AWS-Lambda_64.svg",
+    "collection": "AWS Architecture Icons 2026-07-31",
+    "terms": "https://aws.amazon.com/architecture/icons/",
+    "bytes": 1810,
+    "viewBox": "0 0 80 80"
+  },
+  {
+    "file": "api-gateway.svg",
+    "source": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+    "archive_path": "Architecture-Service-Icons_07312026/Arch_Networking-Content-Delivery/64/Arch_Amazon-API-Gateway_64.svg",
+    "collection": "AWS Architecture Icons 2026-07-31",
+    "terms": "https://aws.amazon.com/architecture/icons/",
+    "bytes": 1915,
+    "viewBox": "0 0 80 80"
+  },
+  {
+    "file": "dynamodb.svg",
+    "source": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+    "archive_path": "Architecture-Service-Icons_07312026/Arch_Databases/64/Arch_Amazon-DynamoDB_64.svg",
+    "collection": "AWS Architecture Icons 2026-07-31",
+    "terms": "https://aws.amazon.com/architecture/icons/",
+    "bytes": 6016,
+    "viewBox": "0 0 80 80"
+  },
+  {
+    "file": "cloudformation.svg",
+    "source": "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/architecture-icon-release/Icon-package_07312026.5846e92413caa21490223536cc97f1269e44fa92.zip",
+    "archive_path": "Architecture-Service-Icons_07312026/Arch_Management-Tools/64/Arch_AWS-CloudFormation_64.svg",
+    "collection": "AWS Architecture Icons 2026-07-31",
+    "terms": "https://aws.amazon.com/architecture/icons/",
+    "bytes": 2499,
+    "viewBox": "0 0 80 80"
+  }
+]
