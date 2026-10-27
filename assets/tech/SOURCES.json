@@ -195,5 +195,47 @@
     "terms": "https://aws.amazon.com/architecture/icons/",
     "bytes": 2499,
     "viewBox": "0 0 80 80"
+  },
+  {
+    "file": "github-actions.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/githubactions/githubactions-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 2854,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "claude.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/claude/claude-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 1835,
+    "viewBox": "0 0 128 128"
+  },
+  {
+    "file": "opencode.svg",
+    "source": "https://raw.githubusercontent.com/anomalyco/opencode/7b1e54a74f6201e725a50cba5d7fb383aa64e407/packages/console/app/src/asset/brand/opencode-logo-light-square.svg",
+    "collection": "Official OpenCode brand assets",
+    "license": "MIT",
+    "brand_guidelines": "https://opencode.ai/brand",
+    "bytes": 631,
+    "viewBox": "0 0 300 300"
+  },
+  {
+    "file": "chatgpt.svg",
+    "source": "https://cdn.openai.com/brand/OpenAI-Logos-2025.zip",
+    "archive_path": "OpenAI-logos(new)/SVGs/OpenAI-black-monoblossom.svg",
+    "collection": "Official OpenAI brand assets",
+    "terms": "https://openai.com/brand/",
+    "bytes": 2969,
+    "viewBox": "0 0 721 721"
+  },
+  {
+    "file": "terraform.svg",
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/terraform/terraform-original.svg",
+    "collection": "Devicon",
+    "license": "MIT",
+    "bytes": 376,
+    "viewBox": "0 0 128 128"
   }
 ]

@@ -1,0 +1,8 @@
+OpenAI / ChatGPT logo
+
+The unmodified black monoblossom SVG was extracted from OpenAI's official logo package:
+https://cdn.openai.com/brand/OpenAI-Logos-2025.zip
+Original archive path: OpenAI-logos(new)/SVGs/OpenAI-black-monoblossom.svg
+
+The OpenAI and ChatGPT names and the Blossom logo are trademarks of OpenAI. This logo is used only to identify ChatGPT in a portfolio skills list and does not imply affiliation or endorsement.
+Brand guidelines and usage terms: https://openai.com/brand/

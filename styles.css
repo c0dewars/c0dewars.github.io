@@ -120,6 +120,10 @@ strong { font-weight: 650; }
 .company { font-size: 14px; font-weight: 600; color: #344a67; margin-bottom: 0; }
 .role-location { font-size: 11px; color: var(--muted); padding-top: 4px; white-space: nowrap; }
 .timeline-content > p { color: var(--muted); font-size: 14px; margin-bottom: 11px; line-height: 1.75; }
+.earlier-role { margin-top: 25px; padding-top: 23px; border-top: 1px solid var(--border); }
+.earlier-role h4 { margin: 0 0 6px; font-size: 16px; line-height: 1.4; letter-spacing: -.02em; }
+.earlier-role p { color: var(--muted); font-size: 14px; line-height: 1.75; margin-bottom: 11px; }
+.earlier-role .earlier-role-meta { color: #2663a8; font-size: 11px; margin-bottom: 16px; }
 .project-note { padding: 14px 18px; border-left: 2px solid #1589ff; background: #edf4fd; margin-block: 20px; border-radius: 0 6px 6px 0; }
 .project-note span { display: block; text-transform: uppercase; font-size: 9px; letter-spacing: .12em; color: #2763aa; font-weight: 650; margin-bottom: 4px; }
 .project-note strong { font-size: 13px; }
@@ -193,6 +197,14 @@ strong { font-weight: 650; }
 .technology-list .technology-logo-dark { padding: 4px; background: var(--navy); border-radius: 7px; }
 .technology-list span { min-height: 30px; display: flex; align-items: flex-start; justify-content: center; max-width: 100%; overflow-wrap: anywhere; }
 .skill-card .skill-note { padding-top: 25px; margin: auto 0 0; font-size: 10px; line-height: 1.65; color: var(--muted); }
+
+/* AI-assisted development */
+.ai-section { border-bottom: 1px solid var(--border); }
+.ai-tool-grid { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+.ai-tool-grid li { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 30px 20px; border: 1px solid var(--border); border-radius: 9px; background: #fafcff; text-align: center; }
+.ai-tool-grid img { width: 48px; height: 48px; object-fit: contain; }
+.ai-tool-grid .technology-logo-dark { padding: 5px; background: var(--navy); border-radius: 8px; }
+.ai-tool-grid span { font-size: 14px; font-weight: 600; line-height: 1.4; }
 
 /* Contact and footer */
 .contact-section { position: relative; overflow: hidden; }
@@ -377,6 +389,8 @@ a.contact-row:hover .contact-arrow { transform: translate(2px, -2px); color: var
   .company { font-size: 13px; }
   .role-location { font-size: 9px; padding-top: 5px; }
   .timeline-content > p { font-size: 13px; }
+  .earlier-role p { font-size: 13px; }
+  .earlier-role .earlier-role-meta { font-size: 10px; }
   .tags { gap: 5px; margin-top: 14px; }
   .tags li { font-size: 9px; padding: 3px 8px; }
   .project-note { padding: 12px 14px; margin-block: 16px; }
@@ -420,6 +434,10 @@ a.contact-row:hover .contact-arrow { transform: translate(2px, -2px); color: var
   .technology-list img { width: 38px; height: 38px; }
   .technology-list span { min-height: 0; }
   .skill-card .skill-note { padding-top: 24px; font-size: 11px; }
+  .ai-tool-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+  .ai-tool-grid li { padding: 26px 15px; gap: 15px; }
+  .ai-tool-grid img { width: 43px; height: 43px; }
+  .ai-tool-grid span { font-size: 13px; }
   .contact-grid { grid-template-columns: 1fr; gap: 34px; }
   .contact-copy h2 { font-size: 38px; }
   .contact-copy > p:not(.eyebrow) { font-size: 14px; max-width: 440px; }
