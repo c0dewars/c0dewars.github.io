@@ -32,7 +32,6 @@
     <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M8 17c0-3-3-4-3-8a7 7 0 0 1 14 0c0 4-3 5-3 8ZM9 21h6m-6-4v4m6-4v4"/></symbol>
     <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 5C8 2 4 3 2 4v15c3-2 7-2 10 0 3-2 7-2 10 0V4c-2-1-6-2-10 1Zm0 0v14"/></symbol>
     <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 6-10 6L2 8Zm-9 11 9 5 9-5M3 18l9 5 9-5"/></symbol>
-    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 6 9 7 9-7"/></symbol>
     <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
     <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 20c-5 1-5-2-7-3m14 6v-4a4 4 0 0 0-1-3c4-.4 7-2 7-6a6 6 0 0 0-2-4 6 6 0 0 0 0-4s-2-1-5 2a14 14 0 0 0-6 0C6 1 4 2 4 2a6 6 0 0 0 0 4 6 6 0 0 0-2 4c0 4 3 6 7 6a4 4 0 0 0-1 3v4"/></symbol>
     <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 3h7v7m0-7L10 14m0-11H3v18h18v-7"/></symbol>
@@ -146,21 +145,72 @@
       <div class="container">
         <div class="section-heading"><div><p class="eyebrow">Skills</p><h2 id="skills-title">Technologies &amp; tools</h2><p class="section-description">The toolkit I use to develop applications and deliver cloud platforms.</p></div><span class="quiet-label">Application depth. Cloud perspective.</span></div>
         <div class="skills-grid">
-          <article class="skill-card"><svg class="icon skill-icon" aria-hidden="true" focusable="false"><use href="#i-cloud"/></svg><h3>Cloud platforms &amp; services</h3><p>AWS · Microsoft Azure</p><ul><li>AWS Lambda</li><li>API Gateway</li><li>DynamoDB</li><li>Serverless architecture</li></ul></article>
-          <article class="skill-card"><svg class="icon skill-icon" aria-hidden="true" focusable="false"><use href="#i-cube"/></svg><h3>Containers &amp; orchestration</h3><p>Kubernetes · Docker · Helm</p><ul><li>Containerised services</li><li>Microservices</li><li>Application deployment</li></ul></article>
-          <article class="skill-card"><svg class="icon skill-icon" aria-hidden="true" focusable="false"><use href="#i-gear"/></svg><h3>Infrastructure &amp; delivery</h3><p>CloudFormation · CI/CD</p><ul><li>Infrastructure as Code</li><li>Delivery automation</li><li>Git</li><li>GitHub Enterprise</li></ul></article>
-          <article class="skill-card"><svg class="icon skill-icon" aria-hidden="true" focusable="false"><use href="#i-code"/></svg><h3>Languages &amp; frameworks</h3><p>Python · Node.js · JavaScript</p><ul><li>Django</li><li>React</li><li>Vue.js</li><li>REST APIs</li></ul></article>
-          <article class="skill-card"><svg class="icon skill-icon" aria-hidden="true" focusable="false"><use href="#i-layers"/></svg><h3>Data &amp; integrations</h3><p>DynamoDB · MongoDB · MySQL</p><ul><li>API integrations</li><li>JSON</li><li>Backend development</li></ul></article>
-          <article class="skill-card"><svg class="icon skill-icon" aria-hidden="true" focusable="false"><use href="#i-check"/></svg><h3>Engineering workflow</h3><p>Quality · Collaboration · Delivery</p><ul><li>Jasmine &amp; Karma</li><li>GitHub Copilot</li><li>Jira</li><li>Confluence</li></ul></article>
+          <article class="skill-card">
+            <h3>Cloud platforms &amp; services</h3>
+            <ul class="technology-list technology-list-four">
+              <li><img src="assets/tech/aws.svg" alt="" width="38" height="38" loading="lazy"><span>AWS</span></li>
+              <li><img src="assets/tech/azure.svg" alt="" width="38" height="38" loading="lazy"><span>Azure</span></li>
+              <li><img src="assets/tech/aws-lambda.svg" alt="" width="38" height="38" loading="lazy"><span>AWS Lambda</span></li>
+              <li><img src="assets/tech/api-gateway.svg" alt="" width="38" height="38" loading="lazy"><span>API Gateway</span></li>
+            </ul>
+            <p class="skill-note">Cloud infrastructure &amp; serverless applications</p>
+          </article>
+          <article class="skill-card">
+            <h3>Containers &amp; orchestration</h3>
+            <ul class="technology-list">
+              <li><img src="assets/tech/kubernetes.svg" alt="" width="38" height="38" loading="lazy"><span>Kubernetes</span></li>
+              <li><img src="assets/tech/docker.svg" alt="" width="38" height="38" loading="lazy"><span>Docker</span></li>
+              <li><img src="assets/tech/helm.svg" alt="" width="38" height="38" loading="lazy"><span>Helm</span></li>
+            </ul>
+            <p class="skill-note">Containerised services &amp; microservices</p>
+          </article>
+          <article class="skill-card">
+            <h3>Infrastructure &amp; delivery</h3>
+            <ul class="technology-list">
+              <li><img src="assets/tech/cloudformation.svg" alt="" width="38" height="38" loading="lazy"><span>CloudFormation</span></li>
+              <li><img src="assets/tech/git.svg" alt="" width="38" height="38" loading="lazy"><span>Git</span></li>
+              <li><img src="assets/tech/github.svg" alt="" width="38" height="38" loading="lazy"><span>GitHub Enterprise</span></li>
+            </ul>
+            <p class="skill-note">Infrastructure as Code &amp; CI/CD</p>
+          </article>
+          <article class="skill-card">
+            <h3>Languages &amp; frameworks</h3>
+            <ul class="technology-list">
+              <li><img src="assets/tech/python.svg" alt="" width="38" height="38" loading="lazy"><span>Python</span></li>
+              <li><img src="assets/tech/nodejs.svg" alt="" width="38" height="38" loading="lazy"><span>Node.js</span></li>
+              <li><img src="assets/tech/javascript.svg" alt="" width="38" height="38" loading="lazy"><span>JavaScript</span></li>
+              <li><img src="assets/tech/django.svg" alt="" width="38" height="38" loading="lazy"><span>Django</span></li>
+              <li><img src="assets/tech/react.svg" alt="" width="38" height="38" loading="lazy"><span>React</span></li>
+              <li><img src="assets/tech/vuejs.svg" alt="" width="38" height="38" loading="lazy"><span>Vue.js</span></li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Data &amp; integrations</h3>
+            <ul class="technology-list">
+              <li><img src="assets/tech/dynamodb.svg" alt="" width="38" height="38" loading="lazy"><span>DynamoDB</span></li>
+              <li><img src="assets/tech/mongodb.svg" alt="" width="38" height="38" loading="lazy"><span>MongoDB</span></li>
+              <li><img src="assets/tech/mysql.svg" alt="" width="38" height="38" loading="lazy"><span>MySQL</span></li>
+            </ul>
+            <p class="skill-note">REST APIs, JSON &amp; backend integrations</p>
+          </article>
+          <article class="skill-card">
+            <h3>Engineering workflow</h3>
+            <ul class="technology-list">
+              <li><img class="technology-logo-dark" src="assets/tech/github-copilot.svg" alt="" width="38" height="38" loading="lazy"><span>GitHub Copilot</span></li>
+              <li><img src="assets/tech/jira.svg" alt="" width="38" height="38" loading="lazy"><span>Jira</span></li>
+              <li><img src="assets/tech/confluence.svg" alt="" width="38" height="38" loading="lazy"><span>Confluence</span></li>
+              <li><img src="assets/tech/jasmine.svg" alt="" width="38" height="38" loading="lazy"><span>Jasmine</span></li>
+              <li><img src="assets/tech/karma.svg" alt="" width="38" height="38" loading="lazy"><span>Karma</span></li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
 
     <section id="contact" class="section contact-section" aria-labelledby="contact-title">
       <div class="container contact-grid">
-        <div class="contact-copy"><p class="eyebrow">Contact</p><h2 id="contact-title">Let’s build<br>something better<span class="heading-dot">.</span></h2><p>Have an opportunity, a project or a cloud engineering challenge in mind? I’d be happy to connect.</p><a class="button" href="mailto:brunogarcia86@gmail.com">Get in touch <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></div>
+        <div class="contact-copy"><p class="eyebrow">Contact</p><h2 id="contact-title">Let’s build<br>something better<span class="heading-dot">.</span></h2><p>Have an opportunity, a project or a cloud engineering challenge in mind? I’d be happy to connect.</p><a class="button" href="https://www.linkedin.com/in/brunogarciadev/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></div>
         <div class="contact-details">
-          <a class="contact-row" href="mailto:brunogarcia86@gmail.com"><span class="contact-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-mail"/></svg></span><span><strong>Email</strong><span>brunogarcia86@gmail.com</span></span><svg class="icon contact-arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a>
           <a class="contact-row" href="https://www.linkedin.com/in/brunogarciadev/" target="_blank" rel="noopener noreferrer"><span class="contact-icon linkedin-icon" aria-hidden="true">in</span><span><strong>LinkedIn</strong><span>linkedin.com/in/brunogarciadev</span></span><svg class="icon contact-arrow" aria-hidden="true" focusable="false"><use href="#i-external"/></svg></a>
           <a class="contact-row" href="https://github.com/c0dewars" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-github"/></svg></span><span><strong>GitHub</strong><span>github.com/c0dewars</span></span><svg class="icon contact-arrow" aria-hidden="true" focusable="false"><use href="#i-external"/></svg></a>
           <div class="contact-row location-row"><span class="contact-icon"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg></span><span><strong>Based in</strong><span>Porto, Portugal</span></span></div>

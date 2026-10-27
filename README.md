@@ -28,8 +28,10 @@ Open http://127.0.0.1:4173/ in a browser.
 
 Professional history and contact details are based on the supplied CV. Public project descriptions are based on the repositories linked from the website. The KBorg dashboard screenshot is from [c0dewars/kborg](https://github.com/c0dewars/kborg/blob/main/docs/screenshots/dashboard-health.png). The cloud illustration was generated for this portfolio using the built-in image-generation tool.
 
+Technology logos are locally hosted SVGs from [Devicon](https://github.com/devicons/devicon) and [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/). Product names and logos belong to their respective owners and are used for identification; no endorsement is implied. Source URLs, provenance and applicable license notices are in `assets/tech/`.
+
 Cloud illustration prompt: “Stylized-concept square hero illustration for a professional DevOps and cloud engineer portfolio. Solid dark navy #031426 backdrop. Luminous white and ice-blue cloud above a refined layered navy server pedestal, surrounded by four connected isometric cubes with unbranded wheel, cloud, triangular geometry, and stacked-container pictograms. Fine cyan circuit lines and light nodes. Premium 3D geometry, beveled matte surfaces, cool studio lighting, restrained emissive outlines. Compact centered composition, full subject visible with safe margins. Navy, cobalt, cyan, ice-blue and white. No people, text, UI, labels, watermarks, malformed logos, purple neon, or galaxy backdrop.”
 
 ## Accessibility and privacy
 
-The site supports keyboard navigation, a skip link, visible focus indicators, reduced-motion preferences and responsive layouts. Its main content and contact links also work with JavaScript disabled. Contact uses standard email and profile links; no data is collected by this website.
+The site supports keyboard navigation, a skip link, visible focus indicators, reduced-motion preferences and responsive layouts. Its main content and contact links also work with JavaScript disabled. Contact uses public profile links; no data is collected by this website.
