@@ -21,14 +21,15 @@ Open http://127.0.0.1:4173/ in a browser.
 - Update profile, experience, projects, skills and contact links in `index.html`.
 - Update presentation and responsive breakpoints in `styles.css`.
 - Replace `assets/Bruno_Garcia_DevOps_Cloud_ATS_CV.pdf` when the CV changes. Preserve the filename or update the download links.
+- Refresh the stylesheet URL version and PDF download URL versions in `index.html` when those files change, so returning visitors receive the new versions immediately.
 - Keep the canonical URL, structured data, social metadata, `robots.txt` and `sitemap.xml` in sync if the domain changes.
 - Open a pull request against `main` and squash merge it. GitHub Pages publishes the repository root automatically after the merge. `.nojekyll` keeps the site independent of Jekyll processing.
 
 ## Content and assets
 
-Professional history and contact details are based on the supplied CV. Public project descriptions are based on the repositories linked from the website. The KBorg dashboard screenshot is from [c0dewars/kborg](https://github.com/c0dewars/kborg/blob/main/docs/screenshots/dashboard-health.png). The cloud illustration was generated for this portfolio using the built-in image-generation tool.
+Professional history and contact details are based on the supplied CV and subsequent confirmed updates: the current DevOps Engineer role from February 2026, Terraform, GitHub Actions, and proficiency with GitHub Copilot, ChatGPT, Claude and OpenCode. Public project descriptions are based on the repositories linked from the website. The KBorg dashboard screenshot is from [c0dewars/kborg](https://github.com/c0dewars/kborg/blob/main/docs/screenshots/dashboard-health.png). The cloud illustration was generated for this portfolio using the built-in image-generation tool.
 
-Technology logos are locally hosted SVGs from [Devicon](https://github.com/devicons/devicon) and [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/). Product names and logos belong to their respective owners and are used for identification; no endorsement is implied. Source URLs, provenance and applicable license notices are in `assets/tech/`.
+Technology logos are locally hosted SVGs from [Devicon](https://github.com/devicons/devicon), [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/), and the official OpenAI and OpenCode brand resources. Product names and logos belong to their respective owners and are used for identification; no endorsement is implied. Source URLs, provenance and applicable license notices are in `assets/tech/`.
 
 Cloud illustration prompt: “Stylized-concept square hero illustration for a professional DevOps and cloud engineer portfolio. Solid dark navy #031426 backdrop. Luminous white and ice-blue cloud above a refined layered navy server pedestal, surrounded by four connected isometric cubes with unbranded wheel, cloud, triangular geometry, and stacked-container pictograms. Fine cyan circuit lines and light nodes. Premium 3D geometry, beveled matte surfaces, cool studio lighting, restrained emissive outlines. Compact centered composition, full subject visible with safe margins. Navy, cobalt, cyan, ice-blue and white. No people, text, UI, labels, watermarks, malformed logos, purple neon, or galaxy backdrop.”
 

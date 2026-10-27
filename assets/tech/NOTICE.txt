@@ -16,3 +16,8 @@ All product names, logos and brands are property of their respective owners. The
 Exact per-file source URLs and original paths are recorded in SOURCES.json.
 
 The Devicon GitHub Copilot SVG has the standard SVG XML namespace added so it renders correctly as a standalone image. Its artwork is unchanged.
+
+Additional AI-tool assets
+OpenCode logo: official anomalyco/opencode brand asset, pinned source revision 7b1e54a74f6201e725a50cba5d7fb383aa64e407. Full MIT notice preserved in OPENCODE-LICENSE.txt. Brand guidelines: https://opencode.ai/brand
+ChatGPT / OpenAI Blossom: official OpenAI brand package. See OPENAI-NOTICE.txt for source, ownership and usage terms.
+GitHub Actions and Claude logos are covered by the existing Devicon source revision and MIT notice.
