@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://c0dewars.github.io/sitemap.xml
