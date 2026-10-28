@@ -6,7 +6,7 @@ Bruno Garcia's portfolio and online CV — DevOps, cloud infrastructure and soft
 
 ## Development
 
-This is a buildless static website, using semantic HTML, CSS and a small JavaScript file for mobile navigation and section highlighting. It has no runtime dependencies, third-party trackers, external fonts or backend service.
+This is a buildless static website, using semantic HTML, CSS and a small JavaScript file for mobile navigation and section highlighting. It has no build dependencies, external fonts or backend service. Optional Google Analytics 4 is loaded only after explicit consent.
 
 Preview locally from the repository root:
 
@@ -37,4 +37,17 @@ Cloud illustration prompt: “Stylized-concept square hero illustration for a pr
 
 ## Accessibility and privacy
 
-The site supports keyboard navigation, a skip link, visible focus indicators, reduced-motion preferences and responsive layouts. Its main content and contact links also work with JavaScript disabled. Contact uses public profile links; no data is collected by this website.
+The site supports keyboard navigation, a skip link, visible focus indicators, reduced-motion preferences and responsive layouts. Its main content and contact links also work with JavaScript disabled. Contact uses public profile links. GitHub Pages performs security logging. Google Analytics 4 (G-DS2PN2ZKER) uses basic consent mode: no Google script or analytics pings before acceptance. Equal Accept/Reject buttons and Cookie settings appear on both pages; choices expire after 180 days. Advertising consent remains denied. See privacy.html.
+
+Run consent regression checks with `node --test tests/analytics.test.cjs` and syntax checks with `node --check analytics.js`.
+
+In the GA4 dashboard, verify the web stream hostname, disable unwanted enhanced measurement and Google signals, review data sharing and event retention, and verify a consented page_view in Realtime. Dashboard settings and report receipt require authenticated account access; source deployment alone does not verify them.
+
+## Orbit role context
+
+Team membership in Orbit Core AWS and the BMW, MINI and Rolls-Royce connected-vehicle service scope were supplied by Bruno. Public platform context is based on these AWS articles; they describe Orbit, not Bruno's individual contributions or the specific Core AWS team's complete remit:
+
+- [An Engine of Efficiency: BMW Group’s CI/CD Modernization Journey with AWS](https://aws.amazon.com/blogs/migration-and-modernization/an-engine-of-efficiency-bmw-groups-ci-cd-modernization-journey-with-aws/) (26 February 2026): Orbit is an Amazon EKS-based platform providing managed networking, logging and microservice scaling. Orbit Spaceship is the CI/CD platform integrated with Orbit; it is not presented as Bruno's team.
+- [Transforming the BMW Connected Vehicle Backend with Karpenter](https://aws.amazon.com/blogs/industries/transforming-the-bmw-connected-vehicle-backend-with-karpenter/) (16 October 2025): connected-vehicle backend and Orbit platform context.
+
+The portfolio scopes the role to connected-vehicle cloud infrastructure; it does not claim ownership of every BMW Group IT system or attribute platform-wide scale metrics to Bruno.
