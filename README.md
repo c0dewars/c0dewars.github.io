@@ -6,7 +6,7 @@ Bruno Garcia's portfolio and online CV — DevOps, cloud infrastructure and soft
 
 ## Development
 
-This is a buildless static website, using semantic HTML, CSS and a small JavaScript file for mobile navigation and section highlighting. It has no build dependencies, external fonts or backend service. Optional Google Analytics 4 is loaded only after explicit consent.
+This is a buildless static website, using semantic HTML, CSS and a small JavaScript file for mobile navigation and section highlighting. It has no build dependencies or backend service. The display font, Bricolage Grotesque, is served locally under the SIL Open Font License. Optional Google Analytics 4 is loaded only after explicit consent.
 
 Preview locally from the repository root:
 
@@ -27,11 +27,15 @@ Open http://127.0.0.1:4173/ in a browser.
 
 ## Content and assets
 
-Professional history and contact details are based on the supplied CV and subsequent confirmed updates: the current DevOps Engineer role from February 2026, Terraform, GitHub Actions, and proficiency with GitHub Copilot, ChatGPT, Claude and OpenCode. Public project descriptions are based on the repositories linked from the website. The KBorg dashboard screenshot is from [c0dewars/kborg](https://github.com/c0dewars/kborg/blob/main/docs/screenshots/dashboard-health.png). The cloud illustration was generated for this portfolio using the built-in image-generation tool.
+Professional history and contact details are based on the supplied CV and subsequent confirmed updates: the current DevOps Engineer role from February 2026, Terraform, GitHub Actions, and proficiency with GitHub Copilot, ChatGPT, Claude and OpenCode. Public project descriptions are based on the repositories linked from the website. The KBorg dashboard screenshot is from [c0dewars/kborg](https://github.com/c0dewars/kborg/blob/main/docs/screenshots/dashboard-health.png). The home page schematic is drawn on a canvas in `script.js`. The KBorg dashboard is also used as the social preview image.
 
 The HyperMac project image is the [per-display layouts screenshot](https://github.com/c0dewars/HyperMac/blob/main/docs/media/screenshots/34-layouts-080.png) from the public HyperMac repository. Its original JPEG bytes are served locally as `assets/hypermac-layouts.jpg`.
 
+The PV Calculator preview uses the app's sample-data savings and payback screenshots from `docs/screenshots/dark-1-overview.png` and `docs/screenshots/1b-payback.png` in the [PV Calculator repository](https://github.com/c0dewars/pv-calculator).
+
 Technology logos are locally hosted SVGs from [Devicon](https://github.com/devicons/devicon), [AWS Architecture Icons](https://aws.amazon.com/architecture/icons/), and the official OpenAI and OpenCode brand resources. Product names and logos belong to their respective owners and are used for identification; no endorsement is implied. Source URLs, provenance and applicable license notices are in `assets/tech/`.
+
+The earlier hero illustration remains archived in `assets/cloud-infrastructure.png`.
 
 Cloud illustration prompt: “Stylized-concept square hero illustration for a professional DevOps and cloud engineer portfolio. Solid dark navy #031426 backdrop. Luminous white and ice-blue cloud above a refined layered navy server pedestal, surrounded by four connected isometric cubes with unbranded wheel, cloud, triangular geometry, and stacked-container pictograms. Fine cyan circuit lines and light nodes. Premium 3D geometry, beveled matte surfaces, cool studio lighting, restrained emissive outlines. Compact centered composition, full subject visible with safe margins. Navy, cobalt, cyan, ice-blue and white. No people, text, UI, labels, watermarks, malformed logos, purple neon, or galaxy backdrop.”
 

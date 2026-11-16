@@ -7,6 +7,7 @@
   const settings = document.querySelectorAll('[data-analytics-settings]');
   let loaded = false;
   let choice = null;
+  let settingsTrigger;
   window['ga-disable-' + id] = true;
   function read() {
     try {
@@ -68,11 +69,14 @@
       // Unload the running Google library; the next document blocks it completely.
       if (wasLoaded) location.reload();
     }
-    settings[0]?.focus();
+    const focusTarget = settingsTrigger || document.querySelector('main');
+    focusTarget?.focus?.({ preventScroll: true });
+    settingsTrigger = null;
   }
   settings.forEach(button => {
     button.hidden = false;
     button.addEventListener('click', () => {
+      settingsTrigger = button;
       panel.hidden = false;
       panel.querySelector('button').focus();
     });
